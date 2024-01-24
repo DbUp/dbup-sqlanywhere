@@ -1,12 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>DbUp makes it easy to deploy and upgrade SQL Server databases. This package adds SqlAnywhere support.</Description>
     <Title>DbUp SqlAnywhere Support</Title>
     <Company>DbUp Contributors</Company>
     <Product>DbUp</Product>
-    <Copyright>Copyright © DbUp Contributors 2015</Copyright>
-    <TargetFrameworks>net462</TargetFrameworks>
+    <Copyright>Copyright � DbUp Contributors 2015</Copyright>
+    <TargetFramework>net462</TargetFramework>
     <AssemblyName>dbup-sqlanywhere</AssemblyName>
     <RootNamespace>DbUp.SqlAnywhere</RootNamespace>
     <PackageId>dbup-sqlanywhere</PackageId>
@@ -18,8 +18,8 @@
 
   <ItemGroup>
     <PackageReference Include="dbup-core" Version="5.0.37"/>
+    <PackageReference Include="Sap.Data.SQLAnywhere" Version="17.0.7.3399"/>
   </ItemGroup>
-
   <ItemGroup>
     <None Visible="false" Include="../dbup-icon.png" Pack="True" PackagePath=""/>
   </ItemGroup>

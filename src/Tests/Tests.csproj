@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net462</TargetFrameworks>
+    <TargetFramework>net462</TargetFramework>
     <AssemblyName>Tests</AssemblyName>
     <RootNamespace>DbUp.SqlAnywhere.Tests</RootNamespace>
     <!--    <ImplicitUsings>enable</ImplicitUsings> Can't use implict usings with net46 -->
